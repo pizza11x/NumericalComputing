@@ -57,10 +57,11 @@ s = saxpy NUMMAT (x, y, a) where x and y are the two vectors previously defined 
 
 15. - Develop the function mx = NUMMAT weighted average (x). (NUMMAT indicates the last 6 digits of your serial number.).
 This function receives a vector of n components x = (x1, x2,..., Xn) e outputs an mx vector of components:
+        
 mx(i) = (x(1)+x(2))/2             i = 1
         (x(i−1)+2x(i)+x(i+1))/4   2 ≤ i ≤ n − 1
         (x(n−1)+x(n))/2            i = n
         
 16. – Sviluppare la funzione s=saxpy NUMMAT(x,y,a). (NUMMAT indica le ultime 6 cifre della propria matricola.).
 Tale funzione riceve due vettori di n componenti x = (x1, x2, . . . , xn) e y = (y1, y2, . . . , yn), un numero reale a e restituisce in output un vettore s di componenti:
-s(i) = a · x(i) + y(i), i = 1, 2, . . . , n
+        s(i) = a · x(i) + y(i), i = 1, 2, . . . , n
