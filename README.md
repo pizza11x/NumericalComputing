@@ -1,4 +1,4 @@
-# Numerical Calculation University HomeWork 
+# Numerical Computing University HomeWork 
 Track:
 1. - Define a row vector T of 30 positive, pseudo-random integers, of 3 digits. (Preliminarily assign a pre-set seed of 6 digits, of which at least 3 distinct, to the function rng. Example: >> rng (143362); do not use 143362 and don't use consecutive digit sequences like 123456, 456789, 765432, etc)
 
